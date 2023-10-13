@@ -14,6 +14,8 @@
 		FE53839A2AD6F26900E2B398 /* SwiftUIExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383992AD6F26900E2B398 /* SwiftUIExamplesTests.swift */; };
 		FE5383A42AD6F26900E2B398 /* SwiftUIExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383A32AD6F26900E2B398 /* SwiftUIExamplesUITests.swift */; };
 		FE5383A62AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383A52AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift */; };
+		FE8B24AE2AD9CEB700086784 /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B24AD2AD9CEB700086784 /* PullToRefreshView.swift */; };
+		FE8B24B02AD9CEFE00086784 /* TiltableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B24AF2AD9CEFE00086784 /* TiltableCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		FE53839F2AD6F26900E2B398 /* SwiftUIExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5383A32AD6F26900E2B398 /* SwiftUIExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesUITests.swift; sourceTree = "<group>"; };
 		FE5383A52AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE8B24AD2AD9CEB700086784 /* PullToRefreshView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshView.swift; sourceTree = "<group>"; };
+		FE8B24AF2AD9CEFE00086784 /* TiltableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltableCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		FE5383872AD6F26700E2B398 /* SwiftUIExamples */ = {
 			isa = PBXGroup;
 			children = (
+				FE8B24AC2AD9CEA200086784 /* PullToRefresh */,
 				FE5383882AD6F26700E2B398 /* SwiftUIExamplesApp.swift */,
 				FE53838A2AD6F26700E2B398 /* ContentView.swift */,
 				FE53838C2AD6F26900E2B398 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				FE5383A52AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIExamplesUITests;
+			sourceTree = "<group>";
+		};
+		FE8B24AC2AD9CEA200086784 /* PullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				FE8B24AD2AD9CEB700086784 /* PullToRefreshView.swift */,
+				FE8B24AF2AD9CEFE00086784 /* TiltableCard.swift */,
+			);
+			path = PullToRefresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8B24B02AD9CEFE00086784 /* TiltableCard.swift in Sources */,
 				FE53838B2AD6F26700E2B398 /* ContentView.swift in Sources */,
 				FE5383892AD6F26700E2B398 /* SwiftUIExamplesApp.swift in Sources */,
+				FE8B24AE2AD9CEB700086784 /* PullToRefreshView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
