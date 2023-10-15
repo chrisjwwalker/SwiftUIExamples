@@ -12,3 +12,5 @@ struct PullToRefresh {
 struct ImageSelect { 
     struct Components {  }
 }
+
+struct SlidingText {  }

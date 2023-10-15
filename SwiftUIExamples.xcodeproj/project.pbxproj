@@ -20,6 +20,7 @@
 		FEBADCE92ADA85E3007F6FD1 /* Namespaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCE82ADA85E3007F6FD1 /* Namespaces.swift */; };
 		FEBADCED2ADAAF03007F6FD1 /* ImageSelectSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCEC2ADAAF03007F6FD1 /* ImageSelectSceneView.swift */; };
 		FEBADCF02ADAAF52007F6FD1 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */; };
+		FEBADCF32ADB3D01007F6FD1 /* SlidingTextSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FEBADCE82ADA85E3007F6FD1 /* Namespaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Namespaces.swift; sourceTree = "<group>"; };
 		FEBADCEC2ADAAF03007F6FD1 /* ImageSelectSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectSceneView.swift; sourceTree = "<group>"; };
 		FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTextSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		FE5383872AD6F26700E2B398 /* SwiftUIExamples */ = {
 			isa = PBXGroup;
 			children = (
+				FEBADCF12ADB3CDF007F6FD1 /* SlidingText */,
 				FEBADCEB2ADAAEE7007F6FD1 /* ImageSelect */,
 				FE8B24AC2AD9CEA200086784 /* PullToRefresh */,
 				FE5383882AD6F26700E2B398 /* SwiftUIExamplesApp.swift */,
@@ -175,6 +178,14 @@
 				FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		FEBADCF12ADB3CDF007F6FD1 /* SlidingText */ = {
+			isa = PBXGroup;
+			children = (
+				FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */,
+			);
+			path = SlidingText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 				FEBADCE92ADA85E3007F6FD1 /* Namespaces.swift in Sources */,
 				FE53838B2AD6F26700E2B398 /* ContentView.swift in Sources */,
 				FEBADCF02ADAAF52007F6FD1 /* Tile.swift in Sources */,
+				FEBADCF32ADB3D01007F6FD1 /* SlidingTextSceneView.swift in Sources */,
 				FEBADCED2ADAAF03007F6FD1 /* ImageSelectSceneView.swift in Sources */,
 				FE5383892AD6F26700E2B398 /* SwiftUIExamplesApp.swift in Sources */,
 				FEBADCE72ADA85D8007F6FD1 /* PullToRefreshModels.swift in Sources */,
