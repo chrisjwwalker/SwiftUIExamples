@@ -50,41 +50,44 @@ extension PullToRefresh {
         }
     }
 
+    struct Examples {
+        static let view = PullToRefresh.SceneView(
+            data: [
+                .init(
+                    title: "SwiftUI",
+                    headline: "Something something",
+                    date: "2020-01-01"
+                ),
+                .init(
+                    title: "WDDC",
+                    headline: "It's happening",
+                    date: "2020-01-02"
+                ),
+                .init(
+                    title: "SwiftUI",
+                    headline: "Something something",
+                    date: "2020-01-01"
+                ),
+                .init(
+                    title: "iOS17",
+                    headline: "Something something",
+                    date: "2020-01-01"
+                ),
+                .init(
+                    title: "iPhone 15 Pro",
+                    headline: "Something something",
+                    date: "2020-01-01"
+                ),
+                .init(
+                    title: "M3 Macs",
+                    headline: "Something something",
+                    date: "2020-01-01"
+                )
+            ]
+        )
+    }
 }
 
 #Preview {
-    PullToRefresh.SceneView(
-        data: [
-            .init(
-                title: "SwiftUI",
-                headline: "Something something",
-                date: "2020-01-01"
-            ),
-            .init(
-                title: "WDDC",
-                headline: "It's happening",
-                date: "2020-01-02"
-            ),
-            .init(
-                title: "SwiftUI",
-                headline: "Something something",
-                date: "2020-01-01"
-            ),
-            .init(
-                title: "iOS17",
-                headline: "Something something",
-                date: "2020-01-01"
-            ),
-            .init(
-                title: "iPhone 15 Pro",
-                headline: "Something something",
-                date: "2020-01-01"
-            ),
-            .init(
-                title: "M3 Macs",
-                headline: "Something something",
-                date: "2020-01-01"
-            )
-        ]
-    )
+    PullToRefresh.Examples.view
 }

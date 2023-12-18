@@ -9,13 +9,28 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationStack {
+            List {
+                Group {
+                    NavigationLink("Fluid circles", destination: {
+                        Animations.Loading.FluidCircles.SceneView()
+                    })
+                    NavigationLink("Animated circles", destination: {
+                        Animations.Loading.Circles.SceneView()
+                    })
+                    NavigationLink("Sliding text", destination: {
+                        SlidingTextSceneView()
+                    })
+                    NavigationLink("Image select", destination: {
+                        ImageSelect.SceneView()
+                    })
+                    NavigationLink("Pull to refresh", destination: {
+                        PullToRefresh.Examples.view
+                    })
+                }
+            }
+            .navigationTitle(Text("SwiftUIExamples"))
         }
-        .padding()
     }
 }
 
