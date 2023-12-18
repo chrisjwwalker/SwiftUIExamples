@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE50506E2B2FA2C800C56379 /* MovingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50506D2B2FA2C800C56379 /* MovingCircle.swift */; };
+		FE5050712B303DC400C56379 /* FluidCirclesSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5050702B303DC400C56379 /* FluidCirclesSceneView.swift */; };
 		FE5383892AD6F26700E2B398 /* SwiftUIExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383882AD6F26700E2B398 /* SwiftUIExamplesApp.swift */; };
 		FE53838B2AD6F26700E2B398 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE53838A2AD6F26700E2B398 /* ContentView.swift */; };
 		FE53838D2AD6F26900E2B398 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE53838C2AD6F26900E2B398 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		FE53839A2AD6F26900E2B398 /* SwiftUIExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383992AD6F26900E2B398 /* SwiftUIExamplesTests.swift */; };
 		FE5383A42AD6F26900E2B398 /* SwiftUIExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383A32AD6F26900E2B398 /* SwiftUIExamplesUITests.swift */; };
 		FE5383A62AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5383A52AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift */; };
+		FE679CF62B2F79AB00491DC3 /* CirclesLoadingSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE679CF52B2F79AA00491DC3 /* CirclesLoadingSceneView.swift */; };
 		FE8B24AE2AD9CEB700086784 /* PullToRefreshSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B24AD2AD9CEB700086784 /* PullToRefreshSceneView.swift */; };
 		FE8B24B02AD9CEFE00086784 /* TiltableCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8B24AF2AD9CEFE00086784 /* TiltableCard.swift */; };
 		FEBADCE72ADA85D8007F6FD1 /* PullToRefreshModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCE62ADA85D8007F6FD1 /* PullToRefreshModels.swift */; };
@@ -21,6 +24,7 @@
 		FEBADCED2ADAAF03007F6FD1 /* ImageSelectSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCEC2ADAAF03007F6FD1 /* ImageSelectSceneView.swift */; };
 		FEBADCF02ADAAF52007F6FD1 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */; };
 		FEBADCF32ADB3D01007F6FD1 /* SlidingTextSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */; };
+		FEBADCF72ADC6401007F6FD1 /* TextAlignmentSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCF62ADC6401007F6FD1 /* TextAlignmentSceneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE50506D2B2FA2C800C56379 /* MovingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingCircle.swift; sourceTree = "<group>"; };
+		FE5050702B303DC400C56379 /* FluidCirclesSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidCirclesSceneView.swift; sourceTree = "<group>"; };
 		FE5383852AD6F26700E2B398 /* SwiftUIExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5383882AD6F26700E2B398 /* SwiftUIExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesApp.swift; sourceTree = "<group>"; };
 		FE53838A2AD6F26700E2B398 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +57,7 @@
 		FE53839F2AD6F26900E2B398 /* SwiftUIExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIExamplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5383A32AD6F26900E2B398 /* SwiftUIExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesUITests.swift; sourceTree = "<group>"; };
 		FE5383A52AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExamplesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE679CF52B2F79AA00491DC3 /* CirclesLoadingSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesLoadingSceneView.swift; sourceTree = "<group>"; };
 		FE8B24AD2AD9CEB700086784 /* PullToRefreshSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshSceneView.swift; sourceTree = "<group>"; };
 		FE8B24AF2AD9CEFE00086784 /* TiltableCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TiltableCard.swift; sourceTree = "<group>"; };
 		FEBADCE62ADA85D8007F6FD1 /* PullToRefreshModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullToRefreshModels.swift; sourceTree = "<group>"; };
@@ -58,6 +65,7 @@
 		FEBADCEC2ADAAF03007F6FD1 /* ImageSelectSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectSceneView.swift; sourceTree = "<group>"; };
 		FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTextSceneView.swift; sourceTree = "<group>"; };
+		FEBADCF62ADC6401007F6FD1 /* TextAlignmentSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentSceneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE50506F2B303D6D00C56379 /* FluidCircles */ = {
+			isa = PBXGroup;
+			children = (
+				FE5050702B303DC400C56379 /* FluidCirclesSceneView.swift */,
+			);
+			path = FluidCircles;
+			sourceTree = "<group>";
+		};
 		FE53837C2AD6F26700E2B398 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +124,7 @@
 		FE5383872AD6F26700E2B398 /* SwiftUIExamples */ = {
 			isa = PBXGroup;
 			children = (
-				FEBADCF12ADB3CDF007F6FD1 /* SlidingText */,
+				FEBADCF42ADC63B1007F6FD1 /* Animation */,
 				FEBADCEB2ADAAEE7007F6FD1 /* ImageSelect */,
 				FE8B24AC2AD9CEA200086784 /* PullToRefresh */,
 				FE5383882AD6F26700E2B398 /* SwiftUIExamplesApp.swift */,
@@ -143,6 +159,24 @@
 				FE5383A52AD6F26900E2B398 /* SwiftUIExamplesUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIExamplesUITests;
+			sourceTree = "<group>";
+		};
+		FE679CF32B2F796500491DC3 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				FE50506F2B303D6D00C56379 /* FluidCircles */,
+				FE679CF42B2F796D00491DC3 /* Circles */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		FE679CF42B2F796D00491DC3 /* Circles */ = {
+			isa = PBXGroup;
+			children = (
+				FE679CF52B2F79AA00491DC3 /* CirclesLoadingSceneView.swift */,
+				FE50506D2B2FA2C800C56379 /* MovingCircle.swift */,
+			);
+			path = Circles;
 			sourceTree = "<group>";
 		};
 		FE8B24AC2AD9CEA200086784 /* PullToRefresh */ = {
@@ -186,6 +220,24 @@
 				FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */,
 			);
 			path = SlidingText;
+			sourceTree = "<group>";
+		};
+		FEBADCF42ADC63B1007F6FD1 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				FE679CF32B2F796500491DC3 /* Loading */,
+				FEBADCF52ADC63C4007F6FD1 /* TextAlignment */,
+				FEBADCF12ADB3CDF007F6FD1 /* SlidingText */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		FEBADCF52ADC63C4007F6FD1 /* TextAlignment */ = {
+			isa = PBXGroup;
+			children = (
+				FEBADCF62ADC6401007F6FD1 /* TextAlignmentSceneView.swift */,
+			);
+			path = TextAlignment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,8 +376,12 @@
 				FEBADCF02ADAAF52007F6FD1 /* Tile.swift in Sources */,
 				FEBADCF32ADB3D01007F6FD1 /* SlidingTextSceneView.swift in Sources */,
 				FEBADCED2ADAAF03007F6FD1 /* ImageSelectSceneView.swift in Sources */,
+				FE5050712B303DC400C56379 /* FluidCirclesSceneView.swift in Sources */,
+				FE679CF62B2F79AB00491DC3 /* CirclesLoadingSceneView.swift in Sources */,
+				FE50506E2B2FA2C800C56379 /* MovingCircle.swift in Sources */,
 				FE5383892AD6F26700E2B398 /* SwiftUIExamplesApp.swift in Sources */,
 				FEBADCE72ADA85D8007F6FD1 /* PullToRefreshModels.swift in Sources */,
+				FEBADCF72ADC6401007F6FD1 /* TextAlignmentSceneView.swift in Sources */,
 				FE8B24AE2AD9CEB700086784 /* PullToRefreshSceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,3 +14,10 @@ struct ImageSelect {
 }
 
 struct SlidingText {  }
+
+struct Animations {
+    struct Loading {
+        struct Circles {  }
+        struct FluidCircles {  }
+    }
+}
