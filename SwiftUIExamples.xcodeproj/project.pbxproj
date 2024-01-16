@@ -25,6 +25,8 @@
 		FEBADCF02ADAAF52007F6FD1 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */; };
 		FEBADCF32ADB3D01007F6FD1 /* SlidingTextSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */; };
 		FEBADCF72ADC6401007F6FD1 /* TextAlignmentSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBADCF62ADC6401007F6FD1 /* TextAlignmentSceneView.swift */; };
+		FEE14BBE2B547E5600980546 /* PulsingGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE14BBD2B547E5600980546 /* PulsingGrid.swift */; };
+		FEE14BC12B547FB800980546 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE14BC02B547FB800980546 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		FEBADCEF2ADAAF52007F6FD1 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		FEBADCF22ADB3D01007F6FD1 /* SlidingTextSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingTextSceneView.swift; sourceTree = "<group>"; };
 		FEBADCF62ADC6401007F6FD1 /* TextAlignmentSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlignmentSceneView.swift; sourceTree = "<group>"; };
+		FEE14BBD2B547E5600980546 /* PulsingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsingGrid.swift; sourceTree = "<group>"; };
+		FEE14BC02B547FB800980546 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,8 @@
 		FE679CF32B2F796500491DC3 /* Loading */ = {
 			isa = PBXGroup;
 			children = (
+				FEE14BBF2B547F9C00980546 /* Grid */,
+				FEE14BBC2B547E0000980546 /* PulsingGrid */,
 				FE50506F2B303D6D00C56379 /* FluidCircles */,
 				FE679CF42B2F796D00491DC3 /* Circles */,
 			);
@@ -238,6 +244,22 @@
 				FEBADCF62ADC6401007F6FD1 /* TextAlignmentSceneView.swift */,
 			);
 			path = TextAlignment;
+			sourceTree = "<group>";
+		};
+		FEE14BBC2B547E0000980546 /* PulsingGrid */ = {
+			isa = PBXGroup;
+			children = (
+				FEE14BBD2B547E5600980546 /* PulsingGrid.swift */,
+			);
+			path = PulsingGrid;
+			sourceTree = "<group>";
+		};
+		FEE14BBF2B547F9C00980546 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				FEE14BC02B547FB800980546 /* Grid.swift */,
+			);
+			path = Grid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +394,7 @@
 			files = (
 				FE8B24B02AD9CEFE00086784 /* TiltableCard.swift in Sources */,
 				FEBADCE92ADA85E3007F6FD1 /* Namespaces.swift in Sources */,
+				FEE14BBE2B547E5600980546 /* PulsingGrid.swift in Sources */,
 				FE53838B2AD6F26700E2B398 /* ContentView.swift in Sources */,
 				FEBADCF02ADAAF52007F6FD1 /* Tile.swift in Sources */,
 				FEBADCF32ADB3D01007F6FD1 /* SlidingTextSceneView.swift in Sources */,
@@ -383,6 +406,7 @@
 				FEBADCE72ADA85D8007F6FD1 /* PullToRefreshModels.swift in Sources */,
 				FEBADCF72ADC6401007F6FD1 /* TextAlignmentSceneView.swift in Sources */,
 				FE8B24AE2AD9CEB700086784 /* PullToRefreshSceneView.swift in Sources */,
+				FEE14BC12B547FB800980546 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
